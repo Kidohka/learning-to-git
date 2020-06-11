@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/teste', (req,res) => {
 
-    return res.json({hello: 'simon'})
+    return res.json({hello: 'simon&caju'})
 
 })
 
